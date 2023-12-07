@@ -80,7 +80,6 @@ for i in range(maximum):
 
 while True:
     print("while true")
-
     try:
         buttonLocation = pyautogui.locateOnScreen(r'C:\Users\Jean-BaptistePERNEY\Pictures\Screenshots\Capture5.png', confidence=0.7)
         print("buttonlocation")
@@ -150,7 +149,7 @@ while(end==False):
 
     pyautogui.moveTo (805, 445,duration=1) # Coordonnées à ajuster6
     pyautogui.click()
-    time.sleep(1)
+    time.sleep(2)
 
     while True:
         print("while true")
