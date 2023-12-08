@@ -25,7 +25,7 @@ for i in range(maximum):
     time.sleep(2)
     pyautogui.moveTo (640, 100)
     pyautogui.click()
-    pyautogui.typewrite('Documents')
+    pyautogui.typewrite('C:\Users\Jean-BaptistePERNEY\Documents\ECHO\DATA\raw_audio_afmt')
     pyautogui.press('enter') 
 
     time.sleep(2)
